@@ -1,0 +1,196 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+:root {
+  /*colors*/
+  --primary_color: #fff;
+  --color_nav: #212121;
+  --accent: #2196f3;
+  --color_contact: #757575;
+  --color_h: #212121;
+  --background_hero: #2f303a;
+  --portfolio_filter_bc: #f5f4fa;
+}
+body {
+  background-color: var(--primary_color);
+  font-family: Roboto, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color_h);
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+/*header*/
+.logo {
+  font-family: 'Raleway', 'san-serif';
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--color_nav);
+}
+.web_logo {
+  color: var(--accent);
+}
+.header_nav,
+.header_contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header_nav_link {
+  color: var(--color_nav);
+}
+.header_contact_link {
+  color: var(--color_contact);
+}
+.header_nav_link:hover,
+.header_nav_link:focus {
+  color: var(--accent);
+}
+.header_contact_link:hover,
+.header_contact_link:focus {
+  color: var(--accent);
+}
+
+/*main sudio*/
+
+/*hero*/
+.hero {
+  background-color: var(--background_hero);
+}
+.hero_title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary_color);
+  text-align: center;
+}
+.hero_button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: block;
+  color: var(--primary_color);
+  background-color: var(--accent);
+  border: none;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+/*benefits*/
+.benefit_title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.benefit_discription {
+  color: var(--color_contact);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/*work*/
+.work_title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+/*team*/
+.team_title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.team_hero_title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.team_hero_discription {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--color_contact);
+}
+
+/*partfolio*/
+.button_filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--color_h);
+  border: none;
+  border-radius: 5px;
+  background-color: var(--portfolio_filter_bc);
+  cursor: pointer;
+}
+.button_filter:hover,
+.button_filter:focus {
+  background-color: var(--accent);
+  border-radius: 5px;
+}
+.project_name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.description_project {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--color_contact);
+}
+
+/*footer*/
+footer {
+  background-color: var(--background_hero);
+}
+footer .logo {
+  color: var(--primary_color);
+}
+.footer_contact .contact_city {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--primary_color);
+}
+.footer_contact .mail a,
+.footer_contact .tel a {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--color_contact);
+}
