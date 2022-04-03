@@ -20,6 +20,7 @@ html {
 body {
   background-color: var(--primary_color);
   font-family: Roboto, sans-serif;
+  font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--color_h);
 }
@@ -51,7 +52,6 @@ li {
 .header_nav,
 .header_contact {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -100,13 +100,11 @@ li {
 /*benefits*/
 .benefit_title {
   font-weight: bold;
-  font-size: 14px;
   line-height: 1.1;
   text-transform: uppercase;
 }
 .benefit_discription {
   color: var(--color_contact);
-  font-size: 14px;
   line-height: 1.7;
   text-align: left;
   margin-top: 10px;
@@ -139,6 +137,7 @@ li {
 
 /*partfolio*/
 .button_filter {
+  font-family: Roboto, san-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -152,6 +151,7 @@ li {
 .button_filter:focus {
   background-color: var(--accent);
   border-radius: 5px;
+  color: #fff;
 }
 .project_name {
   font-weight: 700;
@@ -174,14 +174,12 @@ footer .logo {
 }
 .footer_contact .contact_city {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.7;
   color: var(--primary_color);
 }
 .footer_contact .mail a,
 .footer_contact .tel a {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.7;
   color: var(--color_contact);
 }
