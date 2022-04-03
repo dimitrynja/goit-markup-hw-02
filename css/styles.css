@@ -64,10 +64,12 @@ li {
 .header_nav_link:hover,
 .header_nav_link:focus {
   color: var(--accent);
+  border: none;
 }
 .header_contact_link:hover,
 .header_contact_link:focus {
   color: var(--accent);
+  border: none;
 }
 
 /*main sudio*/
@@ -95,6 +97,9 @@ li {
   border: none;
   margin: 0 auto;
   cursor: pointer;
+}
+.hero_button:focus {
+  border: none;
 }
 
 /*benefits*/
@@ -152,8 +157,9 @@ li {
 .button_filter:hover,
 .button_filter:focus {
   background-color: var(--accent);
-  border-radius: 5px;
+  border-radius: 4px;
   color: #fff;
+  border: none;
 }
 .project_name {
   font-weight: 700;
