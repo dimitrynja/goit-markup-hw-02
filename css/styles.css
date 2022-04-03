@@ -20,6 +20,8 @@ html {
 body {
   background-color: var(--primary_color);
   font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--color_h);
 }
 h1,
 h2,
@@ -41,7 +43,6 @@ li {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--color_nav);
 }
 .web_logo {
@@ -101,14 +102,12 @@ li {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .benefit_discription {
   color: var(--color_contact);
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   text-align: left;
   margin-top: 10px;
   margin-bottom: 0;
@@ -119,7 +118,6 @@ li {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 
 /*team*/
@@ -127,18 +125,15 @@ li {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 .team_hero_title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 .team_hero_discription {
   font-size: 16px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--color_contact);
 }
 
@@ -147,7 +142,6 @@ li {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  letter-spacing: 0.03em;
   color: var(--color_h);
   border: none;
   border-radius: 5px;
@@ -168,7 +162,6 @@ li {
 .description_project {
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
   color: var(--color_contact);
 }
 
@@ -183,7 +176,6 @@ footer .logo {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: var(--primary_color);
 }
 .footer_contact .mail a,
@@ -191,6 +183,5 @@ footer .logo {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: var(--color_contact);
 }
